@@ -420,7 +420,7 @@ class AsgardGUI(Ui_MainWindow):
             #     feedRate=" F" + str(self.FeedRateInput.value())
             # else:
             typeOfMovement = "G1 "
-            feedRate = " F350.0"
+            feedRate = " F500.0"
             art5 = round(self.SpinBoxArt5.value() / 13, 2)
             art6 = round(self.SpinBoxArt6.value() / 3.33, 2)
             message = typeOfMovement + \
