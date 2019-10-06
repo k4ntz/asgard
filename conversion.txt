@@ -1,0 +1,10 @@
+Motor 
+(using default)
+base: log: 16° = 45° real
+
+
+Optical end stop:
+base:    blue = signal;   green = ground
+Middle:  blue = signal;   green = ground;  purple = voltage
+	 brown = signal;  red = ground;    black = voltage
+Top:	 black = signal;  brown = NOpen;   red = NClose
